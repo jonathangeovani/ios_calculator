@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora | Javascript</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="calculator.js"></script>
+</head>
+<body>
+    <div class="calculadora">
+        <div class="resultado" id="resultado">
+            0
+        </div>
+        <div class="botoes">
+            <button class="especial circular" onclick="reset()">AC</button>
+            <button class="especial circular" onclick="invert()">+/-</button>
+            <button class="especial circular" onclick="percent()">%</button>
+            <button class="operador circular" onclick="updateOperation('/')">/</button>
+            <button class="numero circular" onclick="addNum(7)">7</button>
+            <button class="numero circular" onclick="addNum(8)">8</button>
+            <button class="numero circular" onclick="addNum(9)">9</button>
+            <button class="operador circular" onclick="updateOperation('*')">x</button>
+            <button class="numero circular" onclick="addNum(4)">4</button>
+            <button class="numero circular" onclick="addNum(5)">5</button>
+            <button class="numero circular" onclick="addNum(6)">6</button>
+            <button class="operador circular" onclick="updateOperation('-')">-</button>
+            <button class="numero circular" onclick="addNum(1)">1</button>
+            <button class="numero circular" onclick="addNum(2)">2</button>
+            <button class="numero circular" onclick="addNum(3)">3</button>
+            <button class="operador circular" onclick="updateOperation('+')">+</button>
+            <button class="numero circular zero" onclick="addNum(0)">0</button>
+            <button class="numero circular" onclick="addNum(',')">,</button>
+            <button class="operador circular" onclick="updateOperation('=')">=</button>
+        </div>
+    </div>
+</body>
+</html>
