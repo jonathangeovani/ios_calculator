@@ -125,3 +125,11 @@ body {
         height: 64%;
     }
 }
+
+@media only screen and (max-height: 600px) {
+    .calculadora {
+        position: inherit;
+        display: block;
+        transform: translate(0,0);
+    }
+}
