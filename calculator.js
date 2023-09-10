@@ -78,13 +78,3 @@ function percent () {
         result.innerText = percent.toString().replace('.',',');
     }
 }
-
-document.addEventListener('click', () => {
-    console.log('\n');
-    console.log('operand1: '+operand1);
-    console.log('operand2: '+operand2);
-    console.log('operator: '+operator);
-    console.log('resultValue: '+resultValue);
-    console.log('IsFirstNum: '+isFirstNum);
-    console.log('IsFirstOperation: '+isFirstOperation);
-})
