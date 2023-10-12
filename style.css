@@ -78,6 +78,19 @@ body {
     grid-column: span 2;
 }
 
+@media only screen and (min-width: 429px) and (min-height: 600px) {
+    body {  
+        background-image: url("/images/Imagem1.png");
+        background-repeat: no-repeat;
+        background-size: 320px;
+        background-position: center;
+    }
+    .calculadora {
+        width: 300px;
+        height: 530px;
+    }
+}
+
 @media only screen and (max-width: 428px) {
     .calculadora {
         width: 100dvw;
