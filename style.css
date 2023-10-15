@@ -53,7 +53,7 @@ body {
     border: none;
     border-radius: 50%;
     cursor: pointer;
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 .especial {
@@ -73,7 +73,7 @@ body {
 
 .zero {
     text-align: left;
-    padding: 0px 2.5rem;
+    padding: 0px 2.3rem;
     border-radius: 50px;
     grid-column: span 2;
 }
@@ -89,6 +89,9 @@ body {
         width: 300px;
         height: 515px;
         border-radius: 40px;
+    }
+    .zero {
+        padding: 0 1.5rem;
     }
 }
 
@@ -109,6 +112,9 @@ body {
 @media only screen and (max-width: 360px) {
     .resultado {
         font-size: 4rem;
+    }
+    .zero {
+        padding: 0 1.5rem;
     }
 }
 
