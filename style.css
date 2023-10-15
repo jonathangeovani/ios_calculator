@@ -80,7 +80,7 @@ body {
 
 @media only screen and (min-width: 429px) and (min-height: 600px) {
     body {  
-        background-image: url("./images/Imagem1.png");
+        background-image: url("ios_calculator/images/Imagem1.png");
         background-repeat: no-repeat;
         background-size: 320px;
         background-position: center;
