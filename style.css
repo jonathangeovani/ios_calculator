@@ -13,8 +13,8 @@
 }
 
 body {
-    height: 100dvh;
     height: 100vh;
+    height: 100dvh;
     font-family: Arial, Helvetica, sans-serif;
     background: var(--color-fakeblack);
 }
@@ -78,7 +78,7 @@ body {
     grid-column: span 2;
 }
 
-@media only screen and (min-width: 429px) and (min-height: 600px) {
+@media only screen and (min-width: 429px) and (min-height: 601px) {
     body {  
         background-image: url("images/Imagem1.png");
         background-repeat: no-repeat;
@@ -87,7 +87,7 @@ body {
     }
     .calculadora {
         width: 300px;
-        height: 530px;
+        height: 515px;
     }
 }
 
