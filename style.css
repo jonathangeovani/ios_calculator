@@ -17,13 +17,13 @@ body {
     height: 100dvh;
     font-family: Arial, Helvetica, sans-serif;
     background: var(--color-fakeblack);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .calculadora {
-    position: absolute;
-    inset: 50%;
-    transform: translate(-50%, -50%);
-    margin-inline: auto;
+    margin: auto;
     width: 320px;
     height: 600px;
     background-color: #000;
@@ -88,6 +88,7 @@ body {
     .calculadora {
         width: 300px;
         height: 515px;
+        border-radius: 40px;
     }
 }
 
